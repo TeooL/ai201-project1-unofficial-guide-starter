@@ -1,0 +1,30 @@
+{
+  "_note": "SYNTHETIC SAMPLE DATA — fictional usernames/professors. Shape mirrors Reddit's .json listing API (comment bodies arrive as HTML in body_html). Real scraped threads can replace this file using the same loader.",
+  "subreddit": "SBU",
+  "threads": [
+    {
+      "thread_title": "Best professor for CSE 214 this fall?",
+      "thread_url": "https://www.reddit.com/r/SBU/comments/sample214/",
+      "comments": [
+        {"id": "t1_a1", "author": "stonybrook_cs27", "course": "CSE214", "created": "2024-04-02", "body_html": "<div class=\"md\"><p>Honestly take <strong>Rahman</strong> if you can get in. I had Mercer and the exams destroyed me. Rahman explains the same material way more clearly and her curve is nicer.</p></div>"},
+        {"id": "t1_a2", "author": "sbu_transfer22", "course": "CSE214", "created": "2024-04-03", "body_html": "<div class=\"md\"><p>Disagree a bit &mdash; Mercer is hard but you come out actually knowing data structures. Depends if you want the grade or the knowledge.</p></div>"},
+        {"id": "t1_a3", "author": "seawolf_dev", "course": "CSE214", "created": "2024-04-03", "body_html": "<div class=\"md\"><p>Mercer doesn&#39;t take attendance fwiw, so you can skip lecture and grind the psets if that&#39;s your style.</p></div>"}
+      ]
+    },
+    {
+      "thread_title": "Is CSE 220 with Osei survivable?",
+      "thread_url": "https://www.reddit.com/r/SBU/comments/sample220/",
+      "comments": [
+        {"id": "t1_b1", "author": "lowlevel_lurker", "course": "CSE220", "created": "2024-03-15", "body_html": "<div class=\"md\"><p>Long answer incoming because I get this DM a lot. CSE 220 (Systems Fundamentals) with Osei is one of the heavier weed-out-adjacent courses in the major, and how survivable it is depends almost entirely on how you study. First: the lectures. People are right that Osei reads from slides and his delivery is flat. But the slides themselves are genuinely good reference material, so download them and annotate them yourself instead of relying on the live lecture to keep you engaged. Second: the exams. They are cumulative and conceptual. He is not going to give you a question where you regurgitate a definition &mdash; you have to actually trace assembly, reason about memory layout, and explain why something happens at the hardware level. Rote memorization gets you maybe a C. Third, and this is the part most people skip: the labs are where the real learning happens. Treat every lab like a mini-exam, start it the day it&#39;s posted, and go to office hours with specific questions rather than &quot;I&#39;m lost.&quot; If you do the labs seriously you will find the exams much less scary because the concepts will already be in your hands. Fourth, form a study group early; explaining bit manipulation and stack frames to a classmate is the fastest way to find the holes in your own understanding. Bottom line: it&#39;s hard, the delivery is rough, but it is absolutely survivable and even rewarding if you front-load the work and lean on the labs and office hours instead of cramming.</p></div>"},
+        {"id": "t1_b2", "author": "caffeine_compiler", "course": "CSE220", "created": "2024-03-16", "body_html": "<div class=\"md\"><p>+1 to the labs comment. I ignored them until the week before the midterm and it was a disaster. Don&#39;t be me.</p></div>"}
+      ]
+    },
+    {
+      "thread_title": "Easy CS gen-ed? Looking at CSE 101",
+      "thread_url": "https://www.reddit.com/r/SBU/comments/sample101/",
+      "comments": [
+        {"id": "t1_c1", "author": "nonmajor_nina", "course": "CSE101", "created": "2024-01-20", "body_html": "<div class=\"md\"><p>CSE 101 with Whitfield is a chill gen-ed. Just know there are clicker questions in class so you do have to actually show up to get those points.</p></div>"}
+      ]
+    }
+  ]
+}

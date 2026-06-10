@@ -1,0 +1,37 @@
+{
+  "_note": "SYNTHETIC SAMPLE DATA — fictional professors, not real SBU faculty. Shape mirrors RateMyProfessors GraphQL output. Real scraped data can replace this file using the same loader.",
+  "school": "Stony Brook University",
+  "department": "Computer Science",
+  "professors": [
+    {
+      "professor": "Daniel Mercer",
+      "reviews": [
+        {"id": "rmp-mercer-1", "class": "CSE214", "quality": 2.1, "difficulty": 4.6, "date": "2023-09-14", "wouldTakeAgain": false, "comment": "Exams were brutal &amp; the curve barely helped. Lectures move fast and he assumes you already know pointers. That said, office hours were a lifesaver &#8212; he&#39;s genuinely patient one-on-one. Do the homework early."},
+        {"id": "rmp-mercer-2", "class": "CSE214", "quality": 2.5, "difficulty": 4.5, "date": "2023-12-02", "wouldTakeAgain": false, "comment": "Tough grader. The programming assignments take forever and partial credit is rare. If you want an easy A this is not the section, but you will actually learn data structures inside out."},
+        {"id": "rmp-mercer-3", "class": "CSE214", "quality": 3.0, "difficulty": 4.0, "date": "2024-05-10", "wouldTakeAgain": true, "comment": "Fair but demanding. Midterms are conceptual, finals are coding-heavy. Keep up with the weekly problem sets and you&#39;ll be fine. Attendance isn&#39;t taken."}
+      ]
+    },
+    {
+      "professor": "Aisha Rahman",
+      "reviews": [
+        {"id": "rmp-rahman-1", "class": "CSE114", "quality": 4.7, "difficulty": 2.5, "date": "2024-02-18", "wouldTakeAgain": true, "comment": "Best intro professor I&#39;ve had. She explains OOP concepts slowly and with tons of examples. Perfect for someone who has never coded before. Highly recommend for your first CS class."},
+        {"id": "rmp-rahman-2", "class": "CSE114", "quality": 4.5, "difficulty": 3.0, "date": "2023-11-21", "wouldTakeAgain": true, "comment": "Super engaging lectures, lots of live coding. Quizzes are easy if you show up. She really wants beginners to succeed and curves generously."},
+        {"id": "rmp-rahman-3", "class": "CSE214", "quality": 4.2, "difficulty": 3.5, "date": "2024-04-30", "wouldTakeAgain": true, "comment": "Took her for 214 after 114. Still great, but the jump in workload is real. Exams are fair and she posts detailed solutions. Would take again."}
+      ]
+    },
+    {
+      "professor": "Victor Osei",
+      "reviews": [
+        {"id": "rmp-osei-1", "class": "CSE220", "quality": 3.4, "difficulty": 4.1, "date": "2023-10-05", "wouldTakeAgain": true, "comment": "Systems Fundamentals with Osei is dense. He basically reads from slides but the slides are good. Exams are cumulative and conceptual &#8212; memorizing won&#39;t save you, you have to understand the assembly."},
+        {"id": "rmp-osei-2", "class": "CSE220", "quality": 2.8, "difficulty": 4.3, "date": "2024-03-12", "wouldTakeAgain": false, "comment": "Monotone lectures, hard to stay awake. Content is important but delivery is rough. The labs are where you actually learn. Bring questions to office hours because the lectures alone aren&#39;t enough."}
+      ]
+    },
+    {
+      "professor": "Lena Whitfield",
+      "reviews": [
+        {"id": "rmp-whitfield-1", "class": "CSE101", "quality": 4.0, "difficulty": 1.8, "date": "2024-01-29", "wouldTakeAgain": true, "comment": "Great gen-ed CS course. Participation counts via in-class clicker questions, so show up. Easy if you do the small weekly assignments. Good for non-majors."},
+        {"id": "rmp-whitfield-2", "class": "CSE101", "quality": 3.8, "difficulty": 2.0, "date": "2023-09-30", "wouldTakeAgain": true, "comment": "Attendance basically matters because of clicker points. Lectures are light and fun. Don&#39;t expect deep programming, it&#39;s a broad overview."}
+      ]
+    }
+  ]
+}
