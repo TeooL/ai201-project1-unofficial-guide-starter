@@ -6,9 +6,8 @@ python-dotenv==1.0.1
 # Ingestion — HTML cleaning for scraped/saved review pages and the catalog:
 beautifulsoup4>=4.12
 
-# Query interface — add whichever you use for Milestone 5:
-# gradio>=6.9.0
-# streamlit>=1.40.0
+# Query interface (Milestone 5):
+gradio>=6.0
 
 # Document ingestion — add if your documents/ folder contains .pdf files:
 # pdfplumber==0.11.4
