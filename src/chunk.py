@@ -80,6 +80,7 @@ def _make_chunk(rec: dict, body: str, part: int, n_parts: int) -> dict:
             "rating": rec.get("rating"),
             "difficulty": rec.get("difficulty"),
             "source": rec.get("source"),
+            "source_file": rec.get("source_file"),
             "date": rec.get("date"),
             "url": rec.get("url"),
             "doc_id": rec["id"],

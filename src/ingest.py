@@ -121,7 +121,10 @@ def load_all(documents_dir: Path = DOCUMENTS_DIR) -> list[dict]:
     for filename, loader in loaders.items():
         path = documents_dir / filename
         if path.exists():
-            records.extend(loader(path))
+            loaded = loader(path)
+            for rec in loaded:  # stamp the originating file for attribution
+                rec["source_file"] = filename
+            records.extend(loaded)
     return records
 
 
